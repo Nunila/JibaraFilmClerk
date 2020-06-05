@@ -60,3 +60,4 @@ class MovieRecommendation:
         base_image_path = "http://image.tmdb.org/t/p/"
         poster_size = "w342"  # w185
         complete_image_path = base_image_path + poster_size + movie_result['poster_path']
+        print("Poster path ", complete_image_path)

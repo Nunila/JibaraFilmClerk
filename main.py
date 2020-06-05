@@ -6,8 +6,8 @@
 # This product uses the TMDb API but is not endorsed or certified by TMDb.
 # Found at: https://www.themoviedb.org/
 
-from recommendation_methods import MovieRecommendaiton
+from src.recommendation_methods import MovieRecommendation
 
 if __name__ == '__main__':
-    MovieRecommendaiton().get_movie_recommendation()
+    MovieRecommendation().get_movie_recommendation()
 
