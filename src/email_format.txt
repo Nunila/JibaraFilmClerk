@@ -1,0 +1,47 @@
+
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Bellota&family=Bellota+Text&family=Poppins&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    </head>
+    <body>
+		<div class="container flex-container">
+		</div>
+        <h2>What's up movie freak?</h2>
+        <h4>Here's your movie recommendation for the day:</h4>
+
+		<div class="card column" style="width:75%">
+			<div class="row">
+				<img src="${POSTER}" alt="Movie Poster" style="width:95%">
+			</div>
+			<div class="row">
+				<h2>${MovieTitle} (${YEAR})</h2>
+			</div>
+		</div>
+    </body>
+
+	<style>
+		h1, h2, p {
+			font-family: 'Bellota Text', cursive;
+		}
+		h4 {
+			font-weight: normal;
+		}
+		 .card {
+		  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		  transition: 0.3s;
+		  border-radius: 5px; /* 5px rounded corners */
+
+		}
+
+		/* Add rounded corners to the top left and the top right corner of the image */
+		img {
+		  border-radius: 5px 5px 0 0;
+		  margin: 2.5%;
+		}
+		.flex-container {
+			display: flex;
+			justify-content: center;
+		}
+	</style>
+</html>
+
